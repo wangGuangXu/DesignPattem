@@ -129,6 +129,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "设计模式类图", "设�
 		..\..\..\tempTFS\DesignPattem\设计模式类图\设计模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\设计模式.png
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterm.UML图", "DesignPatterm.UML图\DesignPatterm.UML图.csproj", "{B6F3D2DE-5176-4464-8A73-1461EB9B04F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +277,10 @@ Global
 		{06EDE7F5-F2B8-4489-9791-97D59F42986F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06EDE7F5-F2B8-4489-9791-97D59F42986F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06EDE7F5-F2B8-4489-9791-97D59F42986F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F3D2DE-5176-4464-8A73-1461EB9B04F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F3D2DE-5176-4464-8A73-1461EB9B04F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F3D2DE-5176-4464-8A73-1461EB9B04F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F3D2DE-5176-4464-8A73-1461EB9B04F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
