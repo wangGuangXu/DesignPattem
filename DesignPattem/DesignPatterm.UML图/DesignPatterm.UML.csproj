@@ -7,8 +7,8 @@
     <ProjectGuid>{B6F3D2DE-5176-4464-8A73-1461EB9B04F1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DesignPatterm.UML图</RootNamespace>
-    <AssemblyName>DesignPatterm.UML图</AssemblyName>
+    <RootNamespace>DesignPatterm.UML</RootNamespace>
+    <AssemblyName>DesignPatterm.UML</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

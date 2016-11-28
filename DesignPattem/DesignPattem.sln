@@ -121,7 +121,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "设计模式类图", "设�
 		..\..\..\tempTFS\DesignPattem\设计模式类图\设计模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\设计模式.png
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterm.UML图", "DesignPatterm.UML图\DesignPatterm.UML图.csproj", "{B6F3D2DE-5176-4464-8A73-1461EB9B04F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterm.UML", "DesignPatterm.UML图\DesignPatterm.UML.csproj", "{B6F3D2DE-5176-4464-8A73-1461EB9B04F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
