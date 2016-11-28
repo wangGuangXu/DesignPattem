@@ -33,14 +33,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "策略模式04", "策略模
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "策略模式05", "策略模式05\策略模式05.csproj", "{E182C93D-B3E7-4217-8A5A-E21A73467426}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "设计原则和模式UML图", "设计原则和模式UML图", "{16F8DC5A-ADCF-4F24-A4EC-89A931D20331}"
-	ProjectSection(SolutionItems) = preProject
-		单例模式02\单例模式.png = 单例模式02\单例模式.png
-		策略模式04\策略模式类图.png = 策略模式04\策略模式类图.png
-		简单工厂02\简单工厂模式.png = 简单工厂02\简单工厂模式.png
-		面向对象设计原则.txt = 面向对象设计原则.txt
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "装饰模式", "装饰模式", "{2A54C339-9111-4B58-83F9-72FA42D5857A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰模式01", "装饰模式01\装饰模式01.csproj", "{72F10126-3DB8-423F-8EB8-A550B80AEB01}"

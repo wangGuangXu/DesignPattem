@@ -55,6 +55,7 @@
     <Content Include="UML\装饰模式.png" />
     <Content Include="UML\观察者模式%28发布订阅%29.png" />
     <Content Include="UML\设计模式.png" />
+    <Content Include="面向对象设计原则.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
