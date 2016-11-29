@@ -47,6 +47,7 @@
   <ItemGroup>
     <Content Include="UML\代理模式.png" />
     <Content Include="UML\单例模式.png" />
+    <Content Include="UML\备忘录模式.png" />
     <Content Include="UML\外观模式.png" />
     <Content Include="UML\建造者%28生成器%29模式.png" />
     <Content Include="UML\抽象工厂模式.png" />
