@@ -14,8 +14,14 @@ namespace 桥接模式02
             ab = new HandsetBrandMAddressList();
             ab.Run();
 
+            ab = new HandsetBrandMGame();
+            ab.Run();
 
+            ab = new HandsetBrandNAddressList();
+            ab.Run();
 
+            ab = new HandsetBrandNGame();
+            ab.Run();
 
             Console.Read();
         }
