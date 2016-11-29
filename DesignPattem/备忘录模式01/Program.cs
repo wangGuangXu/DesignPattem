@@ -6,7 +6,7 @@ using System.Text;
 namespace 备忘录模式01
 {
     /// <summary>
-    /// 采用第一种方式保存进度
+    /// 未使用备忘录模式来保存进度
     /// </summary>
     class Program
     {
