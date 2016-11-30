@@ -105,20 +105,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "状态模式", "状态模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "状态模式01", "状态模式01\状态模式01.csproj", "{06EDE7F5-F2B8-4489-9791-97D59F42986F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "设计模式类图", "设计模式类图", "{AB77BC84-F47D-431D-B55B-591B841E267A}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\tempTFS\DesignPattem\设计模式类图\代理模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\代理模式.png
-		..\..\..\tempTFS\DesignPattem\设计模式类图\单例模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\单例模式.png
-		..\..\..\tempTFS\DesignPattem\设计模式类图\外观模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\外观模式.png
-		..\..\..\tempTFS\DesignPattem\设计模式类图\建造者(生成器)模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\建造者(生成器)模式.png
-		..\..\..\tempTFS\DesignPattem\设计模式类图\抽象工厂模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\抽象工厂模式.png
-		..\..\..\tempTFS\DesignPattem\设计模式类图\策略模式类图.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\策略模式类图.png
-		..\..\..\tempTFS\DesignPattem\设计模式类图\简单工厂模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\简单工厂模式.png
-		..\..\..\tempTFS\DesignPattem\设计模式类图\装饰模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\装饰模式.png
-		..\..\..\tempTFS\DesignPattem\设计模式类图\观察者模式(发布订阅).png = ..\..\..\tempTFS\DesignPattem\设计模式类图\观察者模式(发布订阅).png
-		..\..\..\tempTFS\DesignPattem\设计模式类图\设计模式.png = ..\..\..\tempTFS\DesignPattem\设计模式类图\设计模式.png
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterm.UML", "DesignPatterm.UML图\DesignPatterm.UML.csproj", "{B6F3D2DE-5176-4464-8A73-1461EB9B04F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "适配器模式", "适配器模式", "{2AE57A12-C8BF-40E2-84DA-82A05BBA51DE}"
