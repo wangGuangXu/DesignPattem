@@ -16,6 +16,11 @@ namespace 职责链模式01
             this.name = name;
         }
 
+        /// <summary>
+        /// 执行请求
+        /// </summary>
+        /// <param name="managerLevel"></param>
+        /// <param name="request"></param>
         public void GetResult(string managerLevel, Request request)
         {
             if (managerLevel=="经理")
