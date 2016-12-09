@@ -155,6 +155,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "职责链模式", "职责�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "职责链模式01", "职责链模式01\职责链模式01.csproj", "{A39870F8-B778-48DE-B582-40957D20F3DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "职责链模式02", "职责链模式02\职责链模式02.csproj", "{91F8C0DA-1D86-4E44-BF57-9A46BDF70D23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -373,6 +375,10 @@ Global
 		{A39870F8-B778-48DE-B582-40957D20F3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A39870F8-B778-48DE-B582-40957D20F3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A39870F8-B778-48DE-B582-40957D20F3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F8C0DA-1D86-4E44-BF57-9A46BDF70D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F8C0DA-1D86-4E44-BF57-9A46BDF70D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F8C0DA-1D86-4E44-BF57-9A46BDF70D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F8C0DA-1D86-4E44-BF57-9A46BDF70D23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -450,5 +456,6 @@ Global
 		{637B3843-9748-4A5A-8E4D-C6AC40B17939} = {76EC6334-DF1A-45DE-BDED-438C2D6AF55E}
 		{98F33519-BEF8-4B81-9033-DE67611A4D91} = {DE667B02-FFE6-4D26-B15D-3F169EB7BDBD}
 		{A39870F8-B778-48DE-B582-40957D20F3DA} = {98F33519-BEF8-4B81-9033-DE67611A4D91}
+		{91F8C0DA-1D86-4E44-BF57-9A46BDF70D23} = {98F33519-BEF8-4B81-9033-DE67611A4D91}
 	EndGlobalSection
 EndGlobal
