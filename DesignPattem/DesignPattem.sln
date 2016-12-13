@@ -163,6 +163,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "中介者模式", "中介�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "中介者模式01", "中介者模式01\中介者模式01.csproj", "{8323A086-E0BB-4E76-A447-A3EFDE072BBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "中介者模式02", "中介者模式02\中介者模式02.csproj", "{11570119-B07F-43F5-B612-F373C092F702}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,10 @@ Global
 		{8323A086-E0BB-4E76-A447-A3EFDE072BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8323A086-E0BB-4E76-A447-A3EFDE072BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8323A086-E0BB-4E76-A447-A3EFDE072BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11570119-B07F-43F5-B612-F373C092F702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11570119-B07F-43F5-B612-F373C092F702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11570119-B07F-43F5-B612-F373C092F702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11570119-B07F-43F5-B612-F373C092F702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -474,5 +480,6 @@ Global
 		{BFC882E4-0C27-4243-9F39-2A647FCD2599} = {98F33519-BEF8-4B81-9033-DE67611A4D91}
 		{63FF70F2-E3C9-44DE-8C7B-8272DD1EBD31} = {DE667B02-FFE6-4D26-B15D-3F169EB7BDBD}
 		{8323A086-E0BB-4E76-A447-A3EFDE072BBB} = {63FF70F2-E3C9-44DE-8C7B-8272DD1EBD31}
+		{11570119-B07F-43F5-B612-F373C092F702} = {63FF70F2-E3C9-44DE-8C7B-8272DD1EBD31}
 	EndGlobalSection
 EndGlobal
