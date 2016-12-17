@@ -179,6 +179,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解释器模式", "解释�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "解释器模式01", "解释器模式01\解释器模式01.csproj", "{C5AB6CB8-BAFB-4AAE-8D01-03C115B9BE59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "解释器模式02", "解释器模式02\解释器模式02.csproj", "{897DEACE-6EC7-42CE-8028-34611895D95B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -433,6 +435,10 @@ Global
 		{C5AB6CB8-BAFB-4AAE-8D01-03C115B9BE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5AB6CB8-BAFB-4AAE-8D01-03C115B9BE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5AB6CB8-BAFB-4AAE-8D01-03C115B9BE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897DEACE-6EC7-42CE-8028-34611895D95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897DEACE-6EC7-42CE-8028-34611895D95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897DEACE-6EC7-42CE-8028-34611895D95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897DEACE-6EC7-42CE-8028-34611895D95B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -522,5 +528,6 @@ Global
 		{76CE049A-6F94-4808-B23A-F609C6180563} = {DDE6A8F1-F35D-4666-A6E4-1B72F03F04CE}
 		{DE1C69E7-D2C6-43EF-93A8-32DCD733ED1B} = {DE667B02-FFE6-4D26-B15D-3F169EB7BDBD}
 		{C5AB6CB8-BAFB-4AAE-8D01-03C115B9BE59} = {DE1C69E7-D2C6-43EF-93A8-32DCD733ED1B}
+		{897DEACE-6EC7-42CE-8028-34611895D95B} = {DE1C69E7-D2C6-43EF-93A8-32DCD733ED1B}
 	EndGlobalSection
 EndGlobal
