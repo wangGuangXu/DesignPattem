@@ -12,7 +12,7 @@ namespace 解释器模式02
             PlayContext context = new PlayContext();
             //音乐-上海滩
             Console.WriteLine("上海滩");
-            context.PlayText = "O 2 E 0.5 G 0.5 A 3 E 0.5 G 0.5 D 3 E 0.5 G 0.5 A 0.5 O 3 C 1 O 2 A 0.5 G 1 C 0.5 E 0.5 D 3";
+            context.PlayText = "T 500 O 2 E 0.5 G 0.5 A 3 E 0.5 G 0.5 D 3 E 0.5 G 0.5 A 0.5 O 3 C 1 O 2 A 0.5 G 1 C 0.5 E 0.5 D 3";
 
             Expression expression = null;
 
@@ -25,6 +25,9 @@ namespace 解释器模式02
                     {
                         case "O":
                             expression = new Scale();
+                            break;
+                        case "T":
+                            expression = new Speed();
                             break;
                         case "C":
                         case "D":
