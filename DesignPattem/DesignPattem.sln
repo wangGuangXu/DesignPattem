@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型模式", "创建型模式", "{199CB184-1379-4035-81C2-FFC035198EEF}"
 EndProject
@@ -184,6 +184,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "访问者模式", "访问者模式", "{54D95C2D-E538-439D-9329-C8D02ED5F2D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问者模式01", "访问者模式01\访问者模式01.csproj", "{60C22A00-3AB9-4173-97F1-33FFE16507ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问者模式02", "访问者模式02\访问者模式02.csproj", "{3E7C2F6E-3E6B-46FC-A5D0-9BDE3060C5A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -447,6 +449,10 @@ Global
 		{60C22A00-3AB9-4173-97F1-33FFE16507ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60C22A00-3AB9-4173-97F1-33FFE16507ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60C22A00-3AB9-4173-97F1-33FFE16507ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7C2F6E-3E6B-46FC-A5D0-9BDE3060C5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7C2F6E-3E6B-46FC-A5D0-9BDE3060C5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7C2F6E-3E6B-46FC-A5D0-9BDE3060C5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7C2F6E-3E6B-46FC-A5D0-9BDE3060C5A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -539,5 +545,6 @@ Global
 		{897DEACE-6EC7-42CE-8028-34611895D95B} = {DE1C69E7-D2C6-43EF-93A8-32DCD733ED1B}
 		{54D95C2D-E538-439D-9329-C8D02ED5F2D2} = {DE667B02-FFE6-4D26-B15D-3F169EB7BDBD}
 		{60C22A00-3AB9-4173-97F1-33FFE16507ED} = {54D95C2D-E538-439D-9329-C8D02ED5F2D2}
+		{3E7C2F6E-3E6B-46FC-A5D0-9BDE3060C5A0} = {54D95C2D-E538-439D-9329-C8D02ED5F2D2}
 	EndGlobalSection
 EndGlobal
