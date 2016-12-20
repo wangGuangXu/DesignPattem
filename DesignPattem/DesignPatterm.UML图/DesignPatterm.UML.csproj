@@ -63,6 +63,7 @@
     <Content Include="UML\观察者模式%28发布订阅%29.png" />
     <Content Include="UML\解释器模式.png" />
     <Content Include="UML\设计模式.png" />
+    <Content Include="UML\访问者模式.png" />
     <Content Include="UML\迭代器模式.png" />
     <Content Include="面向对象设计原则.txt" />
   </ItemGroup>
