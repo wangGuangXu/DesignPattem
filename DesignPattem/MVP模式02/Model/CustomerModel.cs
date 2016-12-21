@@ -8,8 +8,8 @@ namespace MVP模式02.Model
     public class CustomerModel
     {
         private IList<Customer> _customers = new List<Customer> {
-            new Customer { Id="001",FirstName="张",LastName="云逸"},
-            new Customer { Id="002",FirstName="李",LastName="云龙"}
+            new Customer { Id="001",FirstName="张",LastName="云逸",Address= "湖北"},
+            new Customer { Id="002",FirstName="毛",LastName="泽东",Address= "湖南"}
         };
 
         public void UpdateCustomer(Customer customer)

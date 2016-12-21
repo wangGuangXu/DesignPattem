@@ -51,9 +51,10 @@
             this.dataGridViewCustomers.Name = "dataGridViewCustomers";
             this.dataGridViewCustomers.ReadOnly = true;
             this.dataGridViewCustomers.RowTemplate.Height = 23;
+            this.dataGridViewCustomers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewCustomers.Size = new System.Drawing.Size(500, 140);
             this.dataGridViewCustomers.TabIndex = 0;
-            this.dataGridViewCustomers.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewCustomers_RowHeaderMouseClick);
+            this.dataGridViewCustomers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCustomers_CellClick);
             // 
             // label1
             // 
@@ -95,6 +96,7 @@
             // 
             this.txtId.Location = new System.Drawing.Point(106, 158);
             this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
             this.txtId.Size = new System.Drawing.Size(116, 21);
             this.txtId.TabIndex = 5;
             // 

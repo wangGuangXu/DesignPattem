@@ -36,6 +36,7 @@ namespace MVP模式02.View
 
         public void DisplayCustomerInfo(Customer customer)
         {
+            this.btnOK.Enabled = true;
             this.txtId.Text = customer.Id;
             this.txtFirstName.Text = customer.FirstName;
             this.txtLastName.Text = customer.LastName;
@@ -67,13 +68,6 @@ namespace MVP模式02.View
             }
         }
 
-        private void dataGridViewCustomers_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            var currentRow = this.dataGridViewCustomers.Rows[e.RowIndex];
-            var customerId = currentRow.Cells[0].Value.ToString();
-            //this.OnCustomerSelected(customerId);
-        }
-
         private void btnOK_Click(object sender, EventArgs e)
         {
             var customer = new Customer();
@@ -83,6 +77,13 @@ namespace MVP模式02.View
             customer.Address = this.txtAddress.Text.Trim();
 
             this.OnCustomerSaving(customer);
+        }
+
+        private void dataGridViewCustomers_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var currentRow = this.dataGridViewCustomers.Rows[e.RowIndex];
+            var customerId = currentRow.Cells[0].Value.ToString();
+            this.OnCustomerSelected(customerId);
         }
     }
 }
