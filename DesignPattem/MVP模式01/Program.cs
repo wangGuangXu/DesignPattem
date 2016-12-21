@@ -6,6 +6,9 @@ using System.Windows.Forms;
 
 namespace MVP模式01
 {
+    /// <summary>
+    /// 项目参考地址：
+    /// </summary>
     static class Program
     {
         /// <summary>
