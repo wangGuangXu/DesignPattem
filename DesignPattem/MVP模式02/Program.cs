@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVP模式02.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
@@ -15,7 +16,17 @@ namespace MVP模式02
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            try
+            {
+                Application.Run(new CustomerView());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
+            //Application.Run(new Form1());
         }
     }
 }
