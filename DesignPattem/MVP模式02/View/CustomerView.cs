@@ -85,5 +85,10 @@ namespace MVP模式02.View
             var customerId = currentRow.Cells[0].Value.ToString();
             this.OnCustomerSelected(customerId);
         }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

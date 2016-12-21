@@ -44,12 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\CustomerModel.cs" />
     <Compile Include="Presenter\CustomerPresenter.cs" />
@@ -67,6 +61,9 @@
     <Compile Include="View\IViewBase.cs" />
     <Compile Include="View\ViewBase.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewBase.Designer.cs">
+      <DependentUpon>ViewBase.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
