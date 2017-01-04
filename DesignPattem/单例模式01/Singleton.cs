@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace 单例模式01
 {
     /// <summary>
-    /// 单例模式
+    /// 单例模式 (懒汉单例)
     /// </summary>
     public class Singleton
     {
@@ -16,7 +16,10 @@ namespace 单例模式01
         //私有构造函数禁止外部访问
         private Singleton() { }
 
-        //返回唯一实例
+        /// <summary>
+        /// 自行实例化并返回唯一实例
+        /// </summary>
+        /// <returns></returns>
         public static Singleton GetInstance()
         {
             if (instance==null)
