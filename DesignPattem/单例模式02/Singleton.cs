@@ -6,7 +6,7 @@ using System.Text;
 namespace 单例模式02
 {
     /// <summary>
-    /// 单例模式 双重锁机制
+    /// 单例模式 双重锁定机制
     /// </summary>
     public class Singleton
     {
