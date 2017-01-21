@@ -13,6 +13,7 @@ namespace WinFormsApp
     /// <summary>
     /// 使用说明：
     /// 在程序跟目录下创建Plugins文件夹，然后将插件项目中所生成的dll放到主程序bin目录下的插件目录下
+    /// 扩展点：MEF  https://msdn.microsoft.com/zh-cn/library/dd460648.aspx
     /// </summary>
     public partial class Form1 : Form
     {
