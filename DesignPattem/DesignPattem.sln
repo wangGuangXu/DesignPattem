@@ -209,6 +209,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp.Interface", "Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp.Plugins", "WinFormsApp.Plugins\WinFormsApp.Plugins.csproj", "{E2AD8674-22E4-4349-B475-D29335EFE26D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForm字体图标", "WinForm字体图标", "{503A7DD9-610D-4643-9878-D9A5DAAFDE51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp.IconFont", "WinFormsApp.IconFont\WinFormsApp.IconFont.csproj", "{D9F2E315-A25E-4CA7-966B-00DFF2B693C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -507,6 +511,10 @@ Global
 		{E2AD8674-22E4-4349-B475-D29335EFE26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2AD8674-22E4-4349-B475-D29335EFE26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2AD8674-22E4-4349-B475-D29335EFE26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F2E315-A25E-4CA7-966B-00DFF2B693C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F2E315-A25E-4CA7-966B-00DFF2B693C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F2E315-A25E-4CA7-966B-00DFF2B693C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F2E315-A25E-4CA7-966B-00DFF2B693C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -609,5 +617,6 @@ Global
 		{D4145608-326A-4731-9623-62138154CAA0} = {486C17E3-BC94-440F-B492-FF025A0F73EF}
 		{66967B2D-3B16-4ECA-A3F4-A71CDAF28ABE} = {486C17E3-BC94-440F-B492-FF025A0F73EF}
 		{E2AD8674-22E4-4349-B475-D29335EFE26D} = {486C17E3-BC94-440F-B492-FF025A0F73EF}
+		{D9F2E315-A25E-4CA7-966B-00DFF2B693C1} = {503A7DD9-610D-4643-9878-D9A5DAAFDE51}
 	EndGlobalSection
 EndGlobal
