@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型模式", "创建型模式", "{199CB184-1379-4035-81C2-FFC035198EEF}"
 EndProject
@@ -212,6 +212,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForm字体图标", "WinForm字体图标", "{503A7DD9-610D-4643-9878-D9A5DAAFDE51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp.IconFont", "WinFormsApp.IconFont\WinFormsApp.IconFont.csproj", "{D9F2E315-A25E-4CA7-966B-00DFF2B693C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "策略模式06", "策略模式06\策略模式06.csproj", "{FD79F7FF-5D7E-4159-B570-058D8605EBC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -515,6 +517,10 @@ Global
 		{D9F2E315-A25E-4CA7-966B-00DFF2B693C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9F2E315-A25E-4CA7-966B-00DFF2B693C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9F2E315-A25E-4CA7-966B-00DFF2B693C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD79F7FF-5D7E-4159-B570-058D8605EBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD79F7FF-5D7E-4159-B570-058D8605EBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD79F7FF-5D7E-4159-B570-058D8605EBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD79F7FF-5D7E-4159-B570-058D8605EBC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -618,5 +624,9 @@ Global
 		{66967B2D-3B16-4ECA-A3F4-A71CDAF28ABE} = {486C17E3-BC94-440F-B492-FF025A0F73EF}
 		{E2AD8674-22E4-4349-B475-D29335EFE26D} = {486C17E3-BC94-440F-B492-FF025A0F73EF}
 		{D9F2E315-A25E-4CA7-966B-00DFF2B693C1} = {503A7DD9-610D-4643-9878-D9A5DAAFDE51}
+		{FD79F7FF-5D7E-4159-B570-058D8605EBC3} = {D3F47B57-2816-4058-8305-8E15B8E22B40}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EE8BFF0-F705-4DE8-84C1-BE134A29D2D3}
 	EndGlobalSection
 EndGlobal
