@@ -1,5 +1,6 @@
 # 设计模式(Design Pattern) 
 ![pic](https://raw.githubusercontent.com/linux-downey/bloc_test/master/picture/Makedown/Makedown.png)  
+[![license](https://www.cnblogs.com/wgx0428/)](http://www.apache.org/licenses/LICENSE-2.0)
 
 ##  设计模式分为3种类型，共23种。
 +   创建型模式：单例模式、抽象工厂模式、建造者模式、工厂模式、原型模式。
