@@ -1,10 +1,12 @@
 # 设计模式(Design Pattern) 
+---
+![pic](https://raw.githubusercontent.com/linux-downey/bloc_test/master/picture/Makedown/Makedown.png)  
 
 ##  设计模式分为3种类型，共23种。
 +   创建型模式：单例模式、抽象工厂模式、建造者模式、工厂模式、原型模式。
 +   结构型型模式：适配器模式、桥接模式、装饰模式、组合模式、外观模式、享元模式、代理模式。
 +   行为型模式：模板方法模式、命令模式、迭代器模式、观察者模式、中介者模式、备忘录模式、解释器模式、状态模式、策略模式、职责链模式、访问者模式。
-
+---
 ######  **设计模式的** *本质*：~~面向对象设计原则灵活运用的产物，并提供的针对特定问题的标准化解决方案~~ 
 +   [资料1]（http://blog.csdn.net/lovelion/article/details/17517213）
 +   [资料2]（http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html）
