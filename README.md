@@ -1,9 +1,15 @@
 # 设计模式(Design Pattern) 
+
+##  设计模式分为3种类型，共23种。
++   创建型模式：单例模式、抽象工厂模式、建造者模式、工厂模式、原型模式。
++   结构型型模式：适配器模式、桥接模式、装饰模式、组合模式、外观模式、享元模式、代理模式。
++   行为型模式：模板方法模式、命令模式、迭代器模式、观察者模式、中介者模式、备忘录模式、解释器模式、状态模式、策略模式、职责链模式、访问者模式。
+
 ######  **设计模式的** *本质*：~~面向对象设计原则灵活运用的产物，并提供的针对特定问题的标准化解决方案~~ 
-[资料1]（http://blog.csdn.net/lovelion/article/details/17517213）
-[资料2]（http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html）
-[资料3]（http://www.cnblogs.com/Terrylee/archive/2006/07/17/334911.html）
-[资料4]（http://www.cnblogs.com/beijiguangyong/archive/2010/11/15/2302807.html）
+>   [资料1]（http://blog.csdn.net/lovelion/article/details/17517213）
+>   [资料2]（http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html）
+>   [资料3]（http://www.cnblogs.com/Terrylee/archive/2006/07/17/334911.html）
+>   [资料4]（http://www.cnblogs.com/beijiguangyong/archive/2010/11/15/2302807.html）
 
 ## 如果编写程序的时候考虑的都是如何针对抽象编程而不是针对细节编程,即程序中所有的依赖关系都是终止于抽象类或接口,那就是面向对象的设计,反正就是过程化的设计.
 ### 面向对象7大设计原则：
