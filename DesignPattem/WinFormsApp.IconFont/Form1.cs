@@ -9,6 +9,7 @@ using System.Windows.Forms;
 
 namespace WinFormsApp.IconFont
 {
+    //注意事项： 需要把字体文件安装到本机才可以起作用，尤其是从一台机子切换到另外一台机子的时候
     public partial class Form1 : Form
     {
         public Form1()
