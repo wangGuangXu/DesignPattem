@@ -1,4 +1,5 @@
 # 设计模式(Design Pattern) 
+######  **设计模式的** *本质*：~~面向对象设计原则灵活运用的产物，并提供的针对特定问题的标准化解决方案~~ 
 [资料1]（http://blog.csdn.net/lovelion/article/details/17517213）
 [资料2]（http://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html）
 [资料3]（http://www.cnblogs.com/Terrylee/archive/2006/07/17/334911.html）
