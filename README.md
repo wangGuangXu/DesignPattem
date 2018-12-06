@@ -28,3 +28,13 @@
 #### 5.  迪米特法则：
 #### 6.  组合复用原则:
 #### 7.  接口隔离原则:
+
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
