@@ -13,11 +13,11 @@ namespace 简单工厂02
         /// <summary>
         /// 工厂方法
         /// </summary>
-        /// <param name="operation"></param>
+        /// <param name="operation">运算符</param>
         /// <returns></returns>
         public static Operation createOperation(string operation)
         {
-            Operation oper = null;
+            Operation oper;
             switch (operation)
             {
                 case"+":
@@ -33,7 +33,7 @@ namespace 简单工厂02
                     oper = new OperationDiv();
                     break;
             }
-            return oper;
+            return null;
         }
     }
 }

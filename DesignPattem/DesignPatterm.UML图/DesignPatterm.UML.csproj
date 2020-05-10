@@ -52,6 +52,7 @@
     <Content Include="UML\命令模式.png" />
     <Content Include="UML\备忘录模式.png" />
     <Content Include="UML\外观模式.png" />
+    <Content Include="UML\工厂方法模式.png" />
     <Content Include="UML\建造者%28生成器%29模式.png" />
     <Content Include="UML\抽象工厂模式.png" />
     <Content Include="UML\桥接模式.png" />

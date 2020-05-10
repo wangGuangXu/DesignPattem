@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace 工厂方法模式01
+﻿namespace 工厂方法模式01
 {
     /// <summary>
     /// 运算工厂
@@ -17,7 +12,7 @@ namespace 工厂方法模式01
         /// <returns></returns>
         public static Operation CreateOperate(string operate)
         {
-            Operation oper=null;
+            Operation oper;
             switch (operate)
             {
                 case "+":
@@ -33,7 +28,7 @@ namespace 工厂方法模式01
                     oper = new Div();
                     break;
             }
-            return oper;
+            return null;
         }
     }
 }

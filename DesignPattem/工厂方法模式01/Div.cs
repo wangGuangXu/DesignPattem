@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace 工厂方法模式01
+﻿namespace 工厂方法模式01
 {
     /// <summary>
     /// 除法-具体产品
