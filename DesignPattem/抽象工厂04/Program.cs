@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace 抽象工厂04
+﻿namespace 抽象工厂04
 {
     /// <summary>
     /// 用简单工厂改造抽象工厂

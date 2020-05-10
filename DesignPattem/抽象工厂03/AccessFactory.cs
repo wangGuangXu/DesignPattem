@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace 抽象工厂03
+﻿namespace 抽象工厂03
 {
     /// <summary>
     /// Access方式的工厂(具体工厂创建具有特定实现的产品对象)

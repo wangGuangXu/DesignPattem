@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Configuration;
 using System.Reflection;
-using System.Text;
 
 namespace 抽象工厂05
 {
@@ -12,7 +9,7 @@ namespace 抽象工厂05
     public class DataAccess
     {
         private static readonly string AssemblyName = "抽象工厂05";
-        private static readonly string db = "SqlServer";
+        private static readonly string db = ConfigurationManager.AppSettings["db"];
 
         /// <summary>
         /// 创建用户抽象产品的工厂方法

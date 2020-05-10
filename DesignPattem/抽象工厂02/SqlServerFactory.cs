@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace 抽象工厂02
+﻿namespace 抽象工厂02
 {
     /// <summary>
     /// SqlServer方式具体工厂

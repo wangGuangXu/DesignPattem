@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace 抽象工厂04
+﻿namespace 抽象工厂04
 {
-    //增加工厂类改造抽象工厂
+    /// <summary>
+    /// 增加工厂类改造抽象工厂
+    /// </summary>
     public class DataAccess
     {
         private static readonly string db = "SqlServer";

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace 抽象工厂02
 {
@@ -13,7 +10,7 @@ namespace 抽象工厂02
         static void Main(string[] args)
         {
             //1.创建具体工厂
-            IFactory factory = new SqlServerFactory();      //如果用Access数据库只需要将SqlServerFactory改为AccessFactory就可以了
+            IFactory factory = new SqlServerFactory(); //如果用Access数据库只需要将SqlServerFactory改为AccessFactory就可以了
 
             //2.根据工厂生产具体
             IUser user= factory.CreateUser();
