@@ -10,7 +10,6 @@ namespace 工厂方法模式02
     /// </summary>
     public abstract class Operation
     {
-
         public double NumA { get; set; }
         /// <summary>
         /// 

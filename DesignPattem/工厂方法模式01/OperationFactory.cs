@@ -15,7 +15,7 @@ namespace 工厂方法模式01
         /// </summary>
         /// <param name="operate">运算符</param>
         /// <returns></returns>
-        public static Operation createOperate(string operate)
+        public static Operation CreateOperate(string operate)
         {
             Operation oper=null;
             switch (operate)

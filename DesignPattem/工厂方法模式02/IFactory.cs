@@ -10,6 +10,6 @@ namespace 工厂方法模式02
     /// </summary>
     public interface IFactory
     {
-        Operation createOperation();
+        Operation CreateOperation();
     }
 }

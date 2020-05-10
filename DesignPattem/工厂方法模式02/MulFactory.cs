@@ -11,7 +11,7 @@ namespace 工厂方法模式02
     public class MulFactory:IFactory
     {
 
-        public Operation createOperation()
+        public Operation CreateOperation()
         {
             return new Mul();
         }

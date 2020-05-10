@@ -10,7 +10,7 @@ namespace 工厂方法模式02
     /// </summary>
     public class DivFactory:IFactory
     {
-        public Operation createOperation()
+        public Operation CreateOperation()
         {
             return new Div();
         }

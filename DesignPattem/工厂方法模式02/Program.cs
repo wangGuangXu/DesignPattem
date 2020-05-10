@@ -11,7 +11,7 @@ namespace 工厂方法模式02
         {
             //工厂方法模式实现
             IFactory factory = new AddFactory();
-            Operation oper=factory.createOperation();
+            Operation oper=factory.CreateOperation();
 
             oper.NumA = 50;
             oper.NumB = 65;

@@ -30,7 +30,5 @@ namespace 简单工厂01
             }
             return result;
         }
-
-
     }
 }

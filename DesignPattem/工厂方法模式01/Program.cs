@@ -19,7 +19,7 @@ namespace 工厂方法模式01
             Console.WriteLine("请输入运算符号：");
             string strOperation = Console.ReadLine();
 
-            Operation oper = OperationFactory.createOperate(strOperation);
+            Operation oper = OperationFactory.CreateOperate(strOperation);
 
             oper.NumA = double.Parse(numA);
             oper.NumB = double.Parse(numB);
